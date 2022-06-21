@@ -206,3 +206,31 @@ main {
 .currency-table--container .trending-up {
    background-image: url('./assets/icons/trending-up.svg');
 }
+.table-date{
+   width: 190px;
+   height: 30px;
+   margin: 0 auto;
+   margin-top: 15px;
+   margin-bottom: 30px;
+   padding: 8px;
+   border-radius: 8px;
+}
+.update__bg-orange{
+   background-color: var(--soft-orange);
+}
+.update__bg-blue{
+   background-color: var(--soft-blue);
+}
+.table-date p{
+   font-size: 1.2rem;
+   font-weight: 300;
+   line-height: 1.5rem;
+   color: var(--warm-black);
+}
+.main-currency-table .commision-table--title{
+   margin-bottom: 15px;
+   font-size: 1.8rem;
+   font-weight: bold;
+   line-height: 2.3rem;
+   color: var(--secondary-blue);
+}
