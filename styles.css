@@ -394,7 +394,6 @@ main {
    color: black;
 }
 .plan-card--price{
-   position: relative;
    padding: 5px 0;
    font-size: 5.2rem;
    font-weight: bold;
@@ -402,11 +401,9 @@ main {
    color: black;
 }
 .plan-card--price span {
-   position: absolute;
    font-size: 1.2rem;
    font-weight: 300;
-   top: -7px;
-   left: 55px;
+   vertical-align: text-top;
 }
 .plan-card--saving{
    font-size: 1.2rem;
