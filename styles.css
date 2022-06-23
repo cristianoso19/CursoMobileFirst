@@ -361,6 +361,10 @@ main {
    line-height: 1.8rem;
    color: #757575;
 }
+.plans-container--slider{
+   display: flex;
+
+}
 .plans-container--card{
    position: relative;
    width: 70%;
