@@ -138,6 +138,18 @@ main {
    line-height: 1.6rem;
    color: #757575;
 }
+.main-table-container{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   width: 70%;
+   margin: 0 auto;
+   height: 365px;
+   overflow-x: auto;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+  
+}
 .main-currency-table {
    width: 70%;
    min-width: 235px;
@@ -364,7 +376,6 @@ main {
 /*estilos para scroll horizontal con efectos, hay que aplicar al hijo tambien */
 .plans-container--slider{
    display: flex;
-   gap: 50px;
    height: 316px;
    overflow-x: scroll;
    overscroll-behavior-x: contain;
