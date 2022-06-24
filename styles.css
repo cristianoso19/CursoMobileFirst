@@ -141,8 +141,8 @@ main {
 .main-table-container{
    display: flex;
    align-items: center;
-   gap: 15px;
-   width: 70%;
+   gap: 9px;
+   width: 240px;
    margin: 0 auto;
    height: 365px;
    overflow-x: auto;
